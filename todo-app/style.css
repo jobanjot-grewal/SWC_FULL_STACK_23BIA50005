@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    min-height:100vh;
+    padding-top:50px;
+}
+
+.container{
+    width:500px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.input-section{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.input-section input{
+    flex:1;
+    padding:10px;
+    font-size:16px;
+}
+
+.input-section button{
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.filters{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.filter-btn{
+    padding:8px 15px;
+    cursor:pointer;
+}
+
+.filter-btn.active{
+    background:black;
+    color:white;
+}
+
+ul{
+    list-style:none;
+}
+
+.task{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#eee;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:5px;
+}
+
+.task-left{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.completed span{
+    text-decoration:line-through;
+    color:gray;
+}
+
+.task-buttons{
+    display:flex;
+    gap:5px;
+}
+
+.task-buttons button{
+    padding:5px 10px;
+    cursor:pointer;
+}
+
+.footer{
+    margin-top:20px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.edit-input{
+    padding:5px;
+    font-size:15px;
+}
