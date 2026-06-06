@@ -8,7 +8,6 @@ let page = 1;
 
 let isLoading = false;
 
-
 // Create Post Card
 
 function createPost(id){
